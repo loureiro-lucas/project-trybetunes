@@ -1,0 +1,14 @@
+#page-favorites {
+  display: flex;
+  flex-direction: column;
+}
+
+#favorites-title {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+#favorite-list {
+  margin: auto;
+}

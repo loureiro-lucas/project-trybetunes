@@ -1,0 +1,62 @@
+#login-page-container {
+  width: 400px;
+  height: 100px;
+  margin: auto;
+  margin-top: 30vh;
+  display: flex;
+}
+
+#login-page-inside-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 30px;
+  align-items: center;
+  width: 350px;
+}
+
+#login-icon {
+  height: 64px;
+  width: 64px;
+  margin: auto;
+}
+
+#username {
+  height: 35px;
+  width: 300px;
+  background: rgb(235, 235, 235);
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #715DF2;
+}
+
+#username::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(150, 150, 150);
+}
+
+#login-button {
+  font-size: 15px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background: #715DF2;
+  border: none;
+  cursor: pointer;
+}
+
+#login-button:disabled {
+  cursor: not-allowed;
+}
+
+#login-button:disabled:hover {
+  font-weight: 400;
+}
+
+#login-button:hover {
+  font-weight: 600;
+}
